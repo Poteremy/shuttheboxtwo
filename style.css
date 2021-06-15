@@ -1,0 +1,120 @@
+html {
+    background-image: url(assets/desk\ top\ darker.png) ;
+    background-size: cover;
+}
+
+#container {
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.num{
+    height: 155px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+}
+
+.num>h1{
+    text-align: center;
+    font-size: 50px;
+    border: 1rem, solid, black;
+}
+
+.btn{
+    height: 20px;
+    margin-left: 26.5%;
+}
+
+.hBtn {
+    font-size: 24px;
+}
+
+.cBtn {
+    font-size: 20px;
+}
+
+.btn:hover, .hBtn:hover, .cBtn:hover {
+    cursor: pointer;
+}
+
+#play{
+    display: flex;
+    justify-content: center;
+}
+
+.dice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dice>h1 {
+    font-size: 50px;
+    border: 2px black solid;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#optionOne {
+    margin: 30px 10px;
+}
+
+#optionOne, #optionTwo {
+    text-align: center;
+    width: 25%;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.4);
+
+    height: 80px;
+}
+
+#optionTwo>input {
+    font-size: 18px;
+}
+
+#optionTwo>div>h1{
+    margin: 0px;
+}
+
+#optionTwo>h1 {
+    margin-top: 20px;
+}
+
+.hidden{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.dNone {
+    display: none !important;
+}
+
+.noClick {
+    pointer-events: none;
+}
+
+.score {
+    text-align: center;
+}
+
+.dices {
+    height: 50px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
